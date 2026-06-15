@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMEOW — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0D0D14;
+            color: #E8E8F0;
+            line-height: 1.7;
+            padding: 0 16px 60px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1A1A2E, #16213E);
+            padding: 48px 24px 36px;
+            text-align: center;
+            border-bottom: 1px solid #2A2A3E;
+            margin: 0 -16px 40px;
+        }
+        .logo { font-size: 48px; margin-bottom: 8px; }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        h1 span.super { color: #E8E8F0; }
+        h1 span.meow { color: #7C6CF6; }
+        .subtitle { color: #888; font-size: 14px; }
+        .updated { color: #7C6CF6; font-size: 13px; margin-top: 8px; }
+        .container { max-width: 720px; margin: 0 auto; }
+        .card {
+            background: #151520;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 16px;
+            border: 1px solid #2A2A3E;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #7C6CF6;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        p { color: #B0B0C8; margin-bottom: 10px; font-size: 15px; }
+        ul { color: #B0B0C8; padding-left: 20px; margin-bottom: 10px; }
+        li { margin-bottom: 6px; font-size: 15px; }
+        .highlight {
+            background: #1E1E35;
+            border-left: 3px solid #7C6CF6;
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            margin: 14px 0;
+            font-size: 15px;
+            color: #C8C8E8;
+        }
+        .contact-link {
+            color: #7C6CF6;
+            text-decoration: none;
+        }
+        .contact-link:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            color: #555;
+            font-size: 13px;
+            margin-top: 40px;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        .lang-btn {
+            background: #1E1E35;
+            border: 1px solid #2A2A3E;
+            color: #888;
+            padding: 6px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .lang-btn.active, .lang-btn:hover {
+            background: #7C6CF6;
+            color: #fff;
+            border-color: #7C6CF6;
+        }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">🐱</div>
+    <h1><span class="super">Super</span><span class="meow">MEOW</span></h1>
+    <div class="subtitle">Privacy Policy / Политика конфиденциальности</div>
+    <div class="updated">Last updated: June 2026</div>
+</div>
+
+<div class="container">
+
+    <div class="lang-switch">
+        <button class="lang-btn active" onclick="setLang('en')">🇬🇧 English</button>
+        <button class="lang-btn" onclick="setLang('ru')">🇷🇺 Русский</button>
+    </div>
+
+    <!-- ENGLISH -->
+    <div class="lang-content active" id="lang-en">
+
+        <div class="card">
+            <h2>📋 Overview</h2>
+            <p>SuperMEOW ("the App") is a digital wellbeing application developed by CyberUnagiMaki. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.</p>
+            <div class="highlight">
+                SuperMEOW does not collect, store, or transmit any personal information to external servers. All your data stays on your device.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📱 Data Collected on Device</h2>
+            <p>The following data is stored <strong>locally on your device only</strong> and never leaves it:</p>
+            <ul>
+                <li>Screen time statistics (daily usage duration)</li>
+                <li>Active mode and time limit settings</li>
+                <li>Selected language and theme preferences</li>
+                <li>Bow balance (in-app currency)</li>
+                <li>Streak and progress data</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🔍 Permissions Used</h2>
+            <ul>
+                <li><strong>Usage Stats Access</strong> — to measure how long you use apps and enforce screen time limits</li>
+                <li><strong>Display Over Other Apps</strong> — to show cat overlays on your screen when time is up</li>
+                <li><strong>Accessibility Service</strong> (optional) — to instantly hide cats when you open the dialer, contacts, or system settings</li>
+                <li><strong>Notifications</strong> — to show your mood cat, screen time, and wellbeing tips in the notification bar</li>
+                <li><strong>Internet</strong> — required for AdMob ads and Google Play Billing</li>
+                <li><strong>Receive Boot Completed</strong> — to restart the monitoring service after device reboot</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>📢 Advertising (Google AdMob)</h2>
+            <p>SuperMEOW uses Google AdMob to display banner and rewarded ads. AdMob may collect:</p>
+            <ul>
+                <li>Device identifiers (Advertising ID)</li>
+                <li>IP address and approximate location</li>
+                <li>Ad interaction data</li>
+            </ul>
+            <p>This data is processed by Google according to the <a class="contact-link" href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>. You can opt out of personalized ads in your device settings.</p>
+        </div>
+
+        <div class="card">
+            <h2>💳 In-App Purchases (Google Play Billing)</h2>
+            <p>SuperMEOW offers optional in-app purchases (bows) through Google Play. All payment processing is handled by Google. We do not collect or store any payment information.</p>
+        </div>
+
+        <div class="card">
+            <h2>👶 Children's Privacy</h2>
+            <p>SuperMEOW is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information, please contact us.</p>
+        </div>
+
+        <div class="card">
+            <h2>🔄 Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the App after changes constitutes acceptance of the new policy.</p>
+        </div>
+
+        <div class="card">
+            <h2>✉️ Contact</h2>
+            <p>If you have questions about this Privacy Policy, contact us at:</p>
+            <p><a class="contact-link" href="mailto:cyberunagimaki@gmail.com">cyberunagimaki@gmail.com</a></p>
+        </div>
+
+    </div>
+
+    <!-- RUSSIAN -->
+    <div class="lang-content" id="lang-ru">
+
+        <div class="card">
+            <h2>📋 Общее</h2>
+            <p>SuperMEOW — приложение для цифрового благополучия, разработанное CyberUnagiMaki. Эта политика конфиденциальности объясняет какие данные мы собираем, как их используем и какие у вас есть права.</p>
+            <div class="highlight">
+                SuperMEOW не собирает, не хранит и не передаёт личные данные на внешние серверы. Все ваши данные остаются на устройстве.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📱 Данные на устройстве</h2>
+            <p>Следующие данные хранятся <strong>только локально на вашем устройстве</strong> и никуда не передаются:</p>
+            <ul>
+                <li>Статистика экранного времени (продолжительность использования)</li>
+                <li>Активный режим и настройки лимита времени</li>
+                <li>Выбранный язык и тема оформления</li>
+                <li>Баланс бантиков (внутриигровая валюта)</li>
+                <li>Данные о серии и прогрессе</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🔍 Используемые разрешения</h2>
+            <ul>
+                <li><strong>Доступ к статистике использования</strong> — для измерения времени использования приложений и применения лимитов</li>
+                <li><strong>Отображение поверх других приложений</strong> — для показа котиков на экране когда время вышло</li>
+                <li><strong>Специальные возможности</strong> (необязательно) — для мгновенного скрытия котиков при открытии звонилки, контактов или системных настроек</li>
+                <li><strong>Уведомления</strong> — для отображения котика настроения, времени экрана и советов в шторке</li>
+                <li><strong>Интернет</strong> — необходим для рекламы AdMob и Google Play Billing</li>
+                <li><strong>Запуск при загрузке</strong> — для перезапуска сервиса мониторинга после перезагрузки устройства</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>📢 Реклама (Google AdMob)</h2>
+            <p>SuperMEOW использует Google AdMob для показа баннерной и наградной рекламы. AdMob может собирать:</p>
+            <ul>
+                <li>Идентификаторы устройства (Advertising ID)</li>
+                <li>IP-адрес и приблизительное местоположение</li>
+                <li>Данные о взаимодействии с рекламой</li>
+            </ul>
+            <p>Эти данные обрабатываются Google согласно <a class="contact-link" href="https://policies.google.com/privacy" target="_blank">Политике конфиденциальности Google</a>. Вы можете отказаться от персонализированной рекламы в настройках устройства.</p>
+        </div>
+
+        <div class="card">
+            <h2>💳 Покупки в приложении (Google Play Billing)</h2>
+            <p>SuperMEOW предлагает необязательные покупки (бантики) через Google Play. Все платежи обрабатываются Google. Мы не собираем и не храним платёжную информацию.</p>
+        </div>
+
+        <div class="card">
+            <h2>👶 Конфиденциальность детей</h2>
+            <p>SuperMEOW не предназначен для детей младше 13 лет. Мы намеренно не собираем личную информацию детей. Если вы считаете что ребёнок предоставил личные данные — свяжитесь с нами.</p>
+        </div>
+
+        <div class="card">
+            <h2>🔄 Изменения политики</h2>
+            <p>Мы можем периодически обновлять эту политику. Изменения будут опубликованы на этой странице с обновлённой датой. Продолжение использования приложения после изменений означает принятие новой политики.</p>
+        </div>
+
+        <div class="card">
+            <h2>✉️ Контакт</h2>
+            <p>По вопросам о политике конфиденциальности обращайтесь:</p>
+            <p><a class="contact-link" href="mailto:cyberunagimaki@gmail.com">cyberunagimaki@gmail.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 CyberUnagiMaki · SuperMEOW · com.supermeow.app
+    </div>
+
+</div>
+
+<script>
+    function setLang(lang) {
+        document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+        document.getElementById('lang-' + lang).classList.add('active');
+        event.target.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
